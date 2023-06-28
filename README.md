@@ -1,25 +1,20 @@
 # Simple Task App
 
-## Backend Technologies
+#### Backend Technologies
 ![Node.js](https://img.shields.io/badge/Node.js-Runtime-brightgreen) ![TypeScript](https://img.shields.io/badge/TypeScript-Language-blue) ![Express](https://img.shields.io/badge/Express-Framework-lightgrey) ![promise-mysql](https://img.shields.io/badge/promise--mysql-Library-yellow) ![cors](https://img.shields.io/badge/cors-Library-green) ![dotenv](https://img.shields.io/badge/dotenv-Library-red)
 
-## Frontend Technologies
+#### Frontend Technologies
 
-![HTML](https://img.shields.io/badge/HTML-Markup-red) ![SCSS](https://img.shields.io/badge/SCSS-Stylesheet-ff69b4) ![TypeScript](https://img.shields.io/badge/TypeScript-Language-blue) ![Angular](https://img.shields.io/badge/Angular-Framework-red)
- ![Bootstrap](https://img.shields.io/badge/Bootstrap-Framework-purple)
+![HTML](https://img.shields.io/badge/HTML-Markup-red) ![SCSS](https://img.shields.io/badge/SCSS-Stylesheet-ff69b4) ![TypeScript](https://img.shields.io/badge/TypeScript-Language-blue) ![Angular](https://img.shields.io/badge/Angular-Framework-red) ![Bootstrap](https://img.shields.io/badge/Bootstrap-Framework-purple)
 
 This is a simple web application that allows users to manage their tasks. Users can add tasks, mark them as completed or not completed, and delete tasks.
-
-## Backend
-
+# Backend
 The backend of this application is built using Node.js and TypeScript. It uses the Express framework for handling HTTP requests and responses. The backend communicates with a MySQL database using the `promise-mysql` library. Cross-Origin Resource Sharing (CORS) is enabled using the `cors` middleware, and environment variables are managed using `dotenv`.
-
-### Prerequisites
-
+## Prerequisites
 - Node.js (version 20.3.1)
 - MySQL database
 
-### Getting Started
+## Getting Started
 
 1. Clone the repository:
 
@@ -55,27 +50,26 @@ The backend of this application is built using Node.js and TypeScript. It uses t
 
 6. The backend server should now be running at http://localhost:8080.
 
-### API Endpoints
+## API Endpoints
 
 The backend server exposes the following API endpoints:
 
 - `GET /tasks`       : Get all tasks.
-- `GET /tasks/:id`   : Get a specific task by ID.
 - `POST /tasks`      : Create a new task.
-- `PUT /tasks/:id`   : Update a task by ID.
+- `PATCH /tasks/:id` : Update the status of a task by ID.
 - `DELETE /tasks/:id`: Delete a task by ID.
 
 
-## Frontend
+# Frontend
 
 The frontend of this application is built using HTML, SCSS, TypeScript, Angular, and Bootstrap.
 
-### Prerequisites
+## Prerequisites
 
 - Node.js (version 20.3.1)
 - Angular CLI (version 19.8.1)
 
-### Getting Started
+## Getting Started
 
 1. Navigate to the frontend directory:
 
